@@ -4,15 +4,6 @@ To get `keylogger` simply run the following in order:
 ```console
 $ git clone https://github.com/NovusEdge/keylogger.git
 $ cd keylogger/
-
-# To display help menu
-$ cargo run -- -h 
-
-# For custom path
-$ cargo run -- --path <path>
-
-# For logging into /tmp/keylog.log
-$ cargo run
 ```
 
 # Usage
@@ -29,4 +20,15 @@ OPTIONS:
     -h, --help           Print help information
     -p, --path <path>    Specify the path of the file where the keystrokes will be logged.
     -V, --version        Print version information
+```
+
+```console
+# To display help menu
+$ cargo run -- -h 
+
+# For custom path
+$ cargo run -- --path <path>
+
+# For logging into /tmp/keylog.log
+$ cargo run
 ```
