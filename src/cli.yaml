@@ -1,0 +1,10 @@
+name: keylogger
+version: "v0.1.0"
+author: Aliasgar Khimani (NovusEdge)
+about: A simple keylogger written in rust
+args:
+    - path:
+        short: p
+        long: path
+        help: Specify the path of the file where the keystrokes will be logged.
+        takes_value: true
